@@ -1,7 +1,15 @@
 package thingiething;
 
-public class Otherthing{
-	static int add(int z){
+public class Otherthing{ //header
+	//fields (variables
+	
+	//constructor(s)
+	public Otherthing(){
+
+	}
+	
+	//method(s)
+	public int add(int z){
 		z++;
 		return z;
 	}

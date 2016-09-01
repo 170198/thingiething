@@ -7,11 +7,11 @@ public class Thingiethingiethingiething {
 		x=0;
 		y=0;
 		x++;
-		int z = 3;
 		Otherthing mything = new Otherthing();
+		int z = mything.add(x);
 		String Turtles;
 		Turtles = "OMG I LOVE TURTLES";
-		System.out.println(x * z  + y);
+		System.out.println(z+y+x);
 		System.out.println(Turtles);
 		
 	}
